@@ -1,11 +1,10 @@
 {
   "name": "timer-service",
-  "version": "0.0.0",
-  "description": "Make and delete triples on a timer for testing",
+  "version": "0.0.1",
+  "description": "Insert and delete triples on a timer for testing",
   "type": "module",
   "dependencies": {
-    "@lblod/mu-auth-sudo": "^0.2.0",
-    "fs-extra": "^8.0.1"
+    "@lblod/mu-auth-sudo": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
