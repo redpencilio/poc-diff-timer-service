@@ -67,7 +67,7 @@ if(process.env.DIRECT_DELTAS) {
 
     DELETE DATA {
       GRAPH <http://mu.semte.ch/graphs/public> {
-        </> a schema:Book ;
+        <http://mu.semte.ch/services/github/madnificent/book-service/books/${id}/> a schema:Book ;
           mu:uuid "${id}" ;
           schema:headline "${time}" .
       }
